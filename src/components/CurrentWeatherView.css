@@ -1,0 +1,108 @@
+.CurrentWeatherView_Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    flex-direction: column;
+    padding: 0 25px 0 25px;
+}   
+
+.CurrentWeatherView_title_1_2 {
+    font-weight: 400;
+}
+.CurrentWeatherView_title_2_2 {
+    font-weight: 700;
+    color: #f9be16;
+}
+
+.CurrentWeatherView_Forcast_for_cnt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.CurrentWeatherView_mainTab {
+    margin-top: 2rem;
+    width: calc(100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:center;
+}
+
+.CurrentWeatherView_humidity {
+    color: black;
+    width: 22px;
+}
+
+.CurrentWeatherView_extended_info {
+    display: flex;
+    
+}
+.CurrentWeatherView_extended_info > p{
+    margin-left: 8px;
+    margin-right: 15px;
+}
+.CurrentWeatherView_leftTab {
+    /* width: calc(50% - 25px); */
+    height: 130px;
+    padding : 1rem 1rem 1rem 1rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.CurrentWeatherView_rightTab {
+    /* width: calc(50% - 25px); */
+    height: 130px;
+    padding : 1rem 1rem 1rem 1rem;
+    width: 300px;
+    background: rgb(236,237,234);
+    background: linear-gradient(90deg, rgba(236,237,234,1) 0%, rgba(220,219,216,1) 100%);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.CurrentWeatherView_rightTab > img {
+    width: 150px;
+}
+
+
+@media (max-width: 768px) {
+    .CurrentWeatherView_Container {
+        margin-top: 2rem;
+    }   
+
+    .CurrentWeatherView_Forcast_for_cnt {
+        flex-direction: column;
+    }
+    .CurrentWeatherView_title_2_2 {
+        margin-top: -0.5rem;
+    }
+
+    .CurrentWeatherView_mainTab {
+        align-items :center;
+        /* flex-direction: column; */
+    }
+
+    .CurrentWeatherView_leftTab {
+        width: calc(100% - 25px - 2rem);
+    }
+    .CurrentWeatherView_rightTab {
+        width: calc(100% - 25px - 2rem);
+    }
+    
+    .CurrentWeatherView_extended_info > p{
+        margin-left: 3px;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    .CurrentWeatherView_extended_info > img{
+        width: 14px;
+    }
+
+    .CurrentWeatherView_rightTab > img {
+        width: 100px;
+    }
+    
+}

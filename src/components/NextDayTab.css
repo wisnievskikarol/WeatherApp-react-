@@ -1,0 +1,28 @@
+.NextDayTab_container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction :row;
+    align-items:center;
+    width: 300px;
+}
+.NextDayTab_weatherIcon {
+    width: 100px;
+}
+
+.NextDayTab_weatherText {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.NextDayTab_weatherText > p{
+    margin-top: -1rem;
+}
+
+.NextDayTab_titleTab {
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    
+}

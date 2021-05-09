@@ -1,0 +1,24 @@
+.Alert_container {
+    display: flex;
+    justify-content: center;
+}
+.Alert_tab {
+    display: flex;
+  
+    justify-content: center;
+    padding-top: 0.2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom:  0.2rem;
+    margin-top: 4rem;
+    width: calc(100% - 4rem);
+    border-radius: 0.7rem;
+    border: #f9be16 solid 4px;
+    background-color: #ffd256;
+    max-width: 400px;
+}
+
+.Alert_tab > p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
